@@ -156,4 +156,4 @@ sakhisetu-empowering-shgs/
 
 ---
 
-<p center>Built with ❤️ for Rural Financial Inclusion · Smart India Hackathon</p>
+<p center>Built for Rural Financial Inclusion </p>
