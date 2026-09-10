@@ -7,7 +7,12 @@ import { tanstackStart } from "@tanstack/react-start/plugin/vite";
 export default defineConfig({
   plugins: [
     tanstackStart({
-      server: { entry: "server" },
+      spa: {
+        enabled: true,
+      },
+      prerender: {
+        enabled: true,
+      },
     }),
     tsconfigPaths(),
     tailwindcss(),
